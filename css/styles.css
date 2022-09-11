@@ -9,6 +9,7 @@
   --color-active-btn: #188ce8;
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
+  --header-border: #ececec;
 }
 body {
   background: var(--primary-color-bg);
@@ -56,7 +57,7 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--header-border);
 }
 
 .main-nav,
@@ -210,6 +211,8 @@ p {
 }
 .team-worker {
   width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-worker:not(:last-child) {
   margin-right: 30px;
@@ -315,6 +318,7 @@ p {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .card-desc {
   font-size: 16px;
